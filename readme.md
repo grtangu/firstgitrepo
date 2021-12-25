@@ -31,7 +31,7 @@ After Stage undo the changes in "filename:
 git reset head "filename"
 git checkout "filename"
 
------------------------------ undo changes start here-------
+----------------------------- undo changes end here-------
 
 If you want to create new branch use the below command, it acutally create new branch from current pointed branch
 git branch "branch-name"
@@ -50,3 +50,13 @@ git log --oneline
 
 If you want to delete the branch use the below command
 git branch -d "branch-name"
+=====================
+
+…or create a new repository on the command line
+echo "# firstgitrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/grtangu/firstgitrepo.git
+git push -u origin main
