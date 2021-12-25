@@ -1,4 +1,4 @@
-========================= Git commands ==============
+========================= Git commands start here ==============
 If you want to check/see what are the current git configurations use the below command
 git config --list
 
@@ -64,3 +64,5 @@ git branch -M main
 git remote add origin https://github.com/grtangu/firstgitrepo.git
 2.second you are pushing your changes from local to remote.
 git push -u origin main
+
+========================= Git commands start here ==============
