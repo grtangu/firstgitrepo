@@ -65,4 +65,8 @@ git remote add origin https://github.com/grtangu/firstgitrepo.git
 2.second you are pushing your changes from local to remote.
 git push -u origin main
 
+git fetch vs git pull
+git fetch ==> it will connect to remote repository and show the changes/differences from local to remote and it won't fetch the changes from remote to local
+git pull ==> it will pull the changes from remote repository to local
+
 ========================= Git commands start here ==============
