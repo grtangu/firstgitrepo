@@ -58,5 +58,9 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
+
+--or if you have already in local repository with same name as remote repository and u want to move your local changes to sync with remote then use the below 2 command 
+1.first command add your local repository to remote.
 git remote add origin https://github.com/grtangu/firstgitrepo.git
+2.second you are pushing your changes from local to remote.
 git push -u origin main
