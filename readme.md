@@ -22,13 +22,16 @@ git add .
 if you want to move the changes from "staging" to "comitted" status then use the below command
 git commit -m "comit comment name"
 
------------------------------ undo changes 123-------
+----------------------------- undo changes start here-------
+
 Before Stage undo the changes in "filename:
 git checkout "filename"
 
 After Stage undo the changes in "filename:
 git reset head "filename"
 git checkout "filename"
+
+----------------------------- undo changes start here-------
 
 If you want to create new branch use the below command, it acutally create new branch from current pointed branch
 git branch "branch-name"
