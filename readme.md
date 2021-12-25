@@ -84,7 +84,7 @@ git cherrypick "requiredcommitid"
 git reset --hard "commitid" 
 git push -f 
 
-git stash:
+git stash: It will put our local changes to a temporary location as we pull the latest or switch branches
 ----------
 Suppose you have made some changes to your feature branch which are not moved to either staging or committed state. Inbetween you got a requirement to move to other branch
 mean needs to checkout other branch in this scenario you will loose your local changes incase of if you wouldn't use stash command.
