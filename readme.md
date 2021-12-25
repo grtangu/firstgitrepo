@@ -47,3 +47,6 @@ git diff "commitid1" "commitid2"
 
 If you want to see the latest top one commit details use the below command
 git log --oneline
+
+If you want to delete the branch use the below command
+git branch -d "branch-name"
