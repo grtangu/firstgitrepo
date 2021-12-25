@@ -22,7 +22,7 @@ git add .
 if you want to move the changes from "staging" to "comitted" status then use the below command
 git commit -m "comit comment name"
 
------------------------------ undo changes -------
+----------------------------- undo changes start here-------
 Before Stage undo the changes in "filename:
 git checkout "filename"
 
