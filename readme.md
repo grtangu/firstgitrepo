@@ -1,4 +1,4 @@
-========================= Git commands start here ==============
+========================= Git commands begin here ==============
 If you want to check/see what are the current git configurations use the below command
 git config --list
 
