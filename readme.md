@@ -71,4 +71,27 @@ git fetch vs git pull
 git fetch ==> it will connect to remote repository and show the changes/differences from local to remote and it won't fetch the changes from remote to local
 git pull ==> it will pull the changes from remote repository to local
 
+git reset vs git revert
+git reset --> use "reset" when you don't want get back the reverted changes(actually when we use reset command then prior to that commitid all the chagnes perminently removed from remote and we can'g get back)
+
+git revert --> use "revert" when you don't want delete the recent changes but you wan't move  head to earlier git commit id.
+
+let's assume there are 4 git commits happens you have reverted the last 2 git commmits and now you want get the changes from last 2nd git commit then you can use git cherrypick "last 2nd git commit id"
+
+git cherrypick "requiredcommitid"
+
+
+git reset --hard "commitid" 
+git push -f 
+
+git stash:
+----------
+Suppose you have made some changes to your feature branch which are not moved to either staging or committed state. Inbetween you got a requirement to move to other branch
+mean needs to checkout other branch in this scenario you will loose your local changes incase of if you wouldn't use stash command.
+git stash
+
+suppose if you we the above git stash command after later some time you want to work with your earlier made changes mean you need to get back those change to current branch
+then use below command
+git stash pop
+
 ========================= Git commands start here ==============
